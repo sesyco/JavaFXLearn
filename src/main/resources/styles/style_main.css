@@ -1,0 +1,9 @@
+.label {
+    -fx-text-fill: darkblue;
+    -fx-font-size: 28;
+}
+
+StackPane {
+    -fx-background-color:snow;
+    -fx-alignment: top-center;
+}

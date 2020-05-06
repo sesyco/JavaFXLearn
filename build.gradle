@@ -20,10 +20,10 @@ compileKotlin {
     kotlinOptions.jvmTarget = "11"
 }
 
+mainClassName = "cn.sxc.jfx.LauncherKt"
+
 dependencies {
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8"
-    implementation 'com.jfoenix:jfoenix:8.0.8'
-    implementation 'io.datafx:datafx:8.0.1'
-    implementation 'io.datafx:flow:8.0.1'
+    implementation 'com.jfoenix:jfoenix:9.0.8'
 }
 
